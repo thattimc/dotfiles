@@ -1,0 +1,22 @@
+brew 'mas'
+brew 'nvm'
+brew 'pnpm'
+brew 'pipx'
+brew 'openjdk'
+brew 'gh'
+
+cask 'google-chrome'
+cask '1password'
+cask 'warp'
+cask 'surfshark'
+cask 'cursor'
+cask 'intellij-idea-ce'
+cask 'localcan'
+cask 'postman'
+cask 'orbstack'
+cask 'beekeeper-studio'
+cask 'figma'
+cask 'notion'
+cask 'linear-linear'
+
+mas 'Xcode', id: 497799835
