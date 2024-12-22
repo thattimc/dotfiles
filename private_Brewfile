@@ -18,5 +18,6 @@ cask 'beekeeper-studio'
 cask 'figma'
 cask 'notion'
 cask 'linear-linear'
+cask 'logi-options+'
 
 mas 'Xcode', id: 497799835
