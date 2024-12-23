@@ -27,6 +27,7 @@ cask 'screen-studio'
 cask 'cleanshot'
 cask 'zoom'
 cask 'slack'
+cask 'arc'
 
 mas 'Xcode', id: 497799835
 mas 'Spark Classic – Email App', id: 1176895641
