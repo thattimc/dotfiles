@@ -21,6 +21,7 @@ cask 'notion'
 cask 'linear-linear'
 cask 'logi-options+'
 cask 'raycast'
+cask 'github'
 
 mas 'Xcode', id: 497799835
 mas 'Spark Classic – Email App', id: 1176895641
