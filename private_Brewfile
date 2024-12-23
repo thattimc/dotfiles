@@ -23,6 +23,7 @@ cask 'logi-options+'
 cask 'raycast'
 cask 'github'
 cask 'chatgpt'
+cask 'screen-studio'
 
 mas 'Xcode', id: 497799835
 mas 'Spark Classic – Email App', id: 1176895641
