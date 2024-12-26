@@ -29,6 +29,7 @@ cask 'zoom'
 cask 'slack'
 cask 'arc'
 cask 'claude'
+cask 'orion'
 
 mas 'Xcode', id: 497799835
 mas 'Spark Classic – Email App', id: 1176895641
