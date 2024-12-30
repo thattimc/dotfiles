@@ -1,9 +1,12 @@
+tap "tursodatabase/tap"
+
 brew 'mas'
 brew 'nvm'
 brew 'pnpm'
 brew 'pipx'
 brew 'openjdk'
 brew 'gh'
+brew 'tursodatabase/tap/turso'
 
 cask 'google-chrome'
 cask '1password'
