@@ -34,6 +34,7 @@ cask 'arc'
 cask 'claude'
 cask 'orion'
 cask 'microsoft-teams'
+cask 'microsoft-excel'
 
 mas 'Xcode', id: 497799835
 mas 'Spark Classic – Email App', id: 1176895641
