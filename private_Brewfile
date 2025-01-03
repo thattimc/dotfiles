@@ -36,6 +36,7 @@ cask 'orion'
 cask 'microsoft-teams'
 cask 'microsoft-excel'
 cask 'signal'
+cask 'microsoft-onenote'
 
 mas 'Xcode', id: 497799835
 mas 'Spark Classic – Email App', id: 1176895641
