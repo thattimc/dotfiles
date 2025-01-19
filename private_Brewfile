@@ -7,6 +7,7 @@ brew 'pipx'
 brew 'openjdk'
 brew 'gh'
 brew 'tursodatabase/tap/turso'
+brew 'oven-sh/bun/bun'
 
 cask 'google-chrome'
 cask '1password'
