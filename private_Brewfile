@@ -9,6 +9,7 @@ brew 'gh'
 brew 'tursodatabase/tap/turso'
 brew 'oven-sh/bun/bun'
 brew 'yarn'
+brew 'rustup'
 
 cask 'google-chrome'
 cask '1password'
