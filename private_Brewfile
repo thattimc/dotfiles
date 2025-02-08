@@ -46,5 +46,4 @@ cask 'windows-app'
 
 mas 'Xcode', id: 497799835
 mas 'Spark Classic – Email App', id: 1176895641
-mas 'WhatsApp Messenger', id: 310633997
 mas 'iA Writer', id: 775737590
