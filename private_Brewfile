@@ -1,4 +1,5 @@
 tap "tursodatabase/tap"
+tap "stripe/stripe-cli"
 
 brew 'mas'
 brew 'nvm'
@@ -9,6 +10,7 @@ brew 'gh'
 brew 'tursodatabase/tap/turso'
 brew 'oven-sh/bun/bun'
 brew 'yarn'
+brew 'stripe/stripe-cli/stripe'
 
 cask 'google-chrome'
 cask '1password'
