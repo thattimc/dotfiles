@@ -11,6 +11,7 @@ brew 'tursodatabase/tap/turso'
 brew 'oven-sh/bun/bun'
 brew 'yarn'
 brew 'stripe/stripe-cli/stripe'
+brew 'kind'
 
 cask 'google-chrome'
 cask '1password'
