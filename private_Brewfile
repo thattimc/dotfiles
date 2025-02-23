@@ -18,6 +18,7 @@ brew 'hcloud'
 brew 'cloudfleetai/tap/cloudfleet-cli'
 brew 'kubectl'
 brew 'yq'
+brew 'helm'
 
 cask 'google-chrome'
 cask '1password'
