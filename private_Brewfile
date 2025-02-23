@@ -13,6 +13,8 @@ brew 'oven-sh/bun/bun'
 brew 'yarn'
 brew 'stripe/stripe-cli/stripe'
 brew 'kind'
+brew 'clusterctl'
+brew 'hcloud'
 brew 'cloudfleetai/tap/cloudfleet-cli'
 brew 'kubectl'
 
