@@ -53,6 +53,7 @@ cask 'windows-app'
 cask 'zen-browser'
 cask 'orbstack'
 cask 'google-cloud-sdk'
+cask 'whimsical'
 
 mas 'Xcode', id: 497799835
 mas 'Spark Classic – Email App', id: 1176895641
