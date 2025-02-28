@@ -1,5 +1,6 @@
 tap "tursodatabase/tap"
 tap "stripe/stripe-cli"
+tap "hashicorp/tap"
 
 brew 'mas'
 brew 'nvm'
@@ -12,10 +13,13 @@ brew 'oven-sh/bun/bun'
 brew 'yarn'
 brew 'stripe/stripe-cli/stripe'
 brew 'kind'
+brew 'clusterctl'
 brew 'hcloud'
 brew 'yq'
 brew 'helm'
-brew 'clusterctl'
+brew 'hashicorp/tap/packer'
+brew 'ansible'
+brew 'coreutils'
 
 cask 'google-chrome'
 cask '1password'
@@ -26,7 +30,6 @@ cask 'cursor'
 cask 'intellij-idea-ce'
 cask 'localcan'
 cask 'postman'
-cask 'orbstack'
 cask 'beekeeper-studio'
 cask 'figma'
 cask 'notion'
@@ -48,6 +51,8 @@ cask 'microsoft-word'
 cask 'ollama'
 cask 'windows-app'
 cask 'zen-browser'
+cask 'orbstack'
+cask 'google-cloud-sdk'
 
 mas 'Xcode', id: 497799835
 mas 'Spark Classic – Email App', id: 1176895641
