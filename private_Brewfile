@@ -1,6 +1,7 @@
 tap "tursodatabase/tap"
 tap "stripe/stripe-cli"
 tap "hashicorp/tap"
+tap "siderolabs/tap"
 
 brew 'mas'
 brew 'nvm'
@@ -20,6 +21,9 @@ brew 'helm'
 brew 'hashicorp/tap/packer'
 brew 'ansible'
 brew 'coreutils'
+brew 'talosctl'
+brew 'dialog'
+brew 'nmap'
 
 cask 'google-chrome'
 cask '1password'
