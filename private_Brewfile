@@ -21,9 +21,10 @@ brew 'helm'
 brew 'hashicorp/tap/packer'
 brew 'ansible'
 brew 'coreutils'
-brew 'talosctl'
 brew 'dialog'
 brew 'nmap'
+brew 'talhelper'
+brew 'talosctl'
 
 cask 'google-chrome'
 cask '1password'
@@ -60,6 +61,7 @@ cask 'orbstack'
 cask 'google-cloud-sdk'
 cask 'whimsical'
 cask 'whatsapp'
+cask 'spotify'
 
 mas 'Xcode', id: 497799835
 mas 'Spark Classic – Email App', id: 1176895641
