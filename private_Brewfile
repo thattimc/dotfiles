@@ -1,67 +1,88 @@
+# Taps
 tap "tursodatabase/tap"
 tap "stripe/stripe-cli"
 tap "hashicorp/tap"
 tap "siderolabs/tap"
 
-brew 'mas'
-brew 'nvm'
-brew 'pnpm'
-brew 'pipx'
-brew 'openjdk'
-brew 'gh'
-brew 'tursodatabase/tap/turso'
-brew 'oven-sh/bun/bun'
-brew 'yarn'
-brew 'stripe/stripe-cli/stripe'
-brew 'kind'
-brew 'clusterctl'
-brew 'hcloud'
-brew 'yq'
-brew 'helm'
-brew 'hashicorp/tap/packer'
-brew 'ansible'
-brew 'coreutils'
-brew 'dialog'
-brew 'nmap'
-brew 'talhelper'
-brew 'talosctl'
+# Development Tools
+brew 'gh'                      # GitHub CLI
+brew 'nvm'                     # Node Version Manager
+brew 'pnpm'                    # Package Manager
+brew 'yarn'                    # Package Manager
+brew 'oven-sh/bun/bun'        # JavaScript Runtime
+brew 'openjdk'                 # Java Development Kit
+brew 'pipx'                    # Python Package Manager
 
+# Databases and APIs
+brew 'tursodatabase/tap/turso' # Edge Database
+brew 'stripe/stripe-cli/stripe'# Stripe CLI
+
+# Infrastructure & DevOps
+brew 'kind'                    # Kubernetes in Docker
+brew 'clusterctl'             # Cluster API
+brew 'hcloud'                 # Hetzner Cloud CLI
+brew 'helm'                   # Kubernetes Package Manager
+brew 'hashicorp/tap/packer'   # Machine Image Builder
+brew 'ansible'                # Infrastructure Automation
+brew 'talosctl'              # Talos Linux CLI
+brew 'talhelper'             # Talos Helper
+
+# System Utilities
+brew 'coreutils'             # GNU Core Utilities
+brew 'dialog'                # Terminal Dialog Boxes
+brew 'nmap'                  # Network Scanner
+brew 'yq'                    # YAML Processor
+brew 'mas'                   # Mac App Store CLI
+
+# Development Applications
+cask 'intellij-idea-ce'      # IDE
+cask 'cursor'                # Code Editor
+cask 'postman'               # API Platform
+cask 'beekeeper-studio'      # Database Manager
+cask 'github'                # GitHub Desktop
+cask 'warp'                  # Terminal
+cask 'orbstack'              # Container Platform
+cask 'google-cloud-sdk'      # Cloud SDK
+cask 'localcan'              # Local Development Tool
+cask 'windows-app'           # Windows Application Support
+
+# Productivity & Communication
+cask 'notion'                # Note Taking
+cask 'linear-linear'         # Project Management
+cask 'figma'                 # Design Tool
+cask 'whimsical'            # Diagrams & Docs
+cask '1password'             # Password Manager
+cask 'raycast'              # Productivity Tool
+cask 'cleanshot'            # Screenshot Tool
+cask 'screen-studio'        # Screen Recording
+
+# Browsers
 cask 'google-chrome'
-cask '1password'
-cask '1password-cli'
-cask 'warp'
-cask 'surfshark'
-cask 'cursor'
-cask 'intellij-idea-ce'
-cask 'localcan'
-cask 'postman'
-cask 'beekeeper-studio'
-cask 'figma'
-cask 'notion'
-cask 'linear-linear'
-cask 'logi-options+'
-cask 'raycast'
-cask 'github'
-cask 'chatgpt'
-cask 'screen-studio'
-cask 'cleanshot'
+cask 'orion'
+cask 'zen-browser'
+
+# Communication & Collaboration
 cask 'zoom'
 cask 'slack'
-cask 'orion'
 cask 'microsoft-teams'
-cask 'microsoft-excel'
-cask 'microsoft-outlook'
 cask 'signal'
-cask 'microsoft-powerpoint'
-cask 'microsoft-word'
-cask 'ollama'
-cask 'windows-app'
-cask 'zen-browser'
-cask 'orbstack'
-cask 'google-cloud-sdk'
-cask 'whimsical'
 cask 'whatsapp'
 
+# Microsoft Office Suite
+cask 'microsoft-excel'
+cask 'microsoft-outlook'
+cask 'microsoft-powerpoint'
+cask 'microsoft-word'
+
+# AI & ML Tools
+cask 'chatgpt'
+cask 'ollama'
+
+# System & Security
+cask 'surfshark'            # VPN
+cask 'logi-options+'        # Logitech Options
+
+# Mac App Store Applications
 mas 'Xcode', id: 497799835
 mas 'Spark Classic – Email App', id: 1176895641
 mas 'iA Writer', id: 775737590
