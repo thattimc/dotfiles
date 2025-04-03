@@ -1,7 +1,6 @@
 # =============================================================================
 # Homebrew Taps
 # =============================================================================
-tap "tursodatabase/tap"                               # Edge Database Provider
 tap "stripe/stripe-cli"                               # Stripe CLI Provider
 tap "hashicorp/tap"                                   # HashiCorp Tools Provider
 tap "siderolabs/tap"                                  # Sidero Labs Provider
@@ -18,6 +17,7 @@ brew 'openjdk'                                        # Java Development Kit
 brew 'go'                                             # Go Programming Language
 brew 'pipx'                                           # Python Package Manager
 brew 'cmake'                                          # C++ Build System
+brew 'btop'                                           # System Monitor
 
 # =============================================================================
 # Infrastructure & DevOps
@@ -32,9 +32,8 @@ brew 'talosctl'                                       # Talos Linux CLI
 brew 'talhelper'                                      # Talos Helper
 
 # =============================================================================
-# Databases & APIs
+# APIs
 # =============================================================================
-brew 'tursodatabase/tap/turso'                        # Edge Database
 brew 'stripe/stripe-cli/stripe'                       # Stripe CLI
 
 # =============================================================================
