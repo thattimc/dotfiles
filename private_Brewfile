@@ -1,23 +1,27 @@
-# Taps
+# =============================================================================
+# Homebrew Taps
+# =============================================================================
 tap "tursodatabase/tap"                               # Edge Database Provider
 tap "stripe/stripe-cli"                               # Stripe CLI Provider
 tap "hashicorp/tap"                                   # HashiCorp Tools Provider
 tap "siderolabs/tap"                                  # Sidero Labs Provider
 
-# Development Tools
+# =============================================================================
+# Development Tools & Languages
+# =============================================================================
 brew 'gh'                                             # GitHub CLI
 brew 'nvm'                                            # Node Version Manager
 brew 'pnpm'                                           # Package Manager
 brew 'yarn'                                           # Package Manager
 brew 'oven-sh/bun/bun'                                # JavaScript Runtime
 brew 'openjdk'                                        # Java Development Kit
+brew 'go'                                             # Go Programming Language
 brew 'pipx'                                           # Python Package Manager
+brew 'cmake'                                          # C++ Build System
 
-# Databases and APIs
-brew 'tursodatabase/tap/turso'                        # Edge Database
-brew 'stripe/stripe-cli/stripe'                       # Stripe CLI
-
+# =============================================================================
 # Infrastructure & DevOps
+# =============================================================================
 brew 'kind'                                           # Kubernetes in Docker
 brew 'clusterctl'                                     # Cluster API
 brew 'hcloud'                                         # Hetzner Cloud CLI
@@ -27,17 +31,26 @@ brew 'ansible'                                        # Infrastructure Automatio
 brew 'talosctl'                                       # Talos Linux CLI
 brew 'talhelper'                                      # Talos Helper
 
+# =============================================================================
+# Databases & APIs
+# =============================================================================
+brew 'tursodatabase/tap/turso'                        # Edge Database
+brew 'stripe/stripe-cli/stripe'                       # Stripe CLI
+
+# =============================================================================
 # System Utilities
-brew 'cmake'                                          # C++ Build System
+# =============================================================================
 brew 'coreutils'                                      # GNU Core Utilities
 brew 'dialog'                                         # Terminal Dialog Boxes
 brew 'nmap'                                           # Network Scanner
 brew 'yq'                                             # YAML Processor
 brew 'mas'                                            # Mac App Store CLI
 brew 'vim'                                            # Text Editor
-brew 'go'                                             # Go Programming Language
+brew 'p7zip'                                          # Archive Manager
 
+# =============================================================================
 # Development Applications
+# =============================================================================
 cask 'intellij-idea-ce'                               # IDE
 cask 'cursor'                                         # Code Editor
 cask 'postman'                                        # API Platform
@@ -48,9 +61,10 @@ cask 'orbstack'                                       # Container Platform
 cask 'google-cloud-sdk'                               # Cloud SDK
 cask 'localcan'                                       # Local Development Tool
 cask 'windows-app'                                    # Windows Application Support
-cask 'tailscale'                                      # Tailscale VPN
 
+# =============================================================================
 # Productivity & Communication
+# =============================================================================
 cask 'notion'                                         # Note Taking
 cask 'linear-linear'                                  # Project Management
 cask 'figma'                                          # Design Tool
@@ -60,33 +74,46 @@ cask 'raycast'                                        # Productivity Tool
 cask 'cleanshot'                                      # Screenshot Tool
 cask 'screen-studio'                                  # Screen Recording
 
-# Browsers
+# =============================================================================
+# Web Browsers
+# =============================================================================
 cask 'google-chrome'                                  # Web Browser
 cask 'orion'                                          # Web Browser
 cask 'zen-browser'                                    # Web Browser
 
+# =============================================================================
 # Communication & Collaboration
+# =============================================================================
 cask 'zoom'                                           # Video Conferencing
 cask 'slack'                                          # Team Communication
 cask 'microsoft-teams'                                # Team Communication
 cask 'signal'                                         # Secure Messaging
 cask 'whatsapp'                                       # Messaging
 
+# =============================================================================
 # Microsoft Office Suite
+# =============================================================================
 cask 'microsoft-excel'                                # Spreadsheet
 cask 'microsoft-outlook'                              # Email Client
 cask 'microsoft-powerpoint'                           # Presentation
 cask 'microsoft-word'                                 # Word Processing
 
+# =============================================================================
 # AI & ML Tools
+# =============================================================================
 cask 'chatgpt'                                        # ChatGPT Desktop
 cask 'ollama'                                         # Local LLM Platform
 
-# System & Security
+# =============================================================================
+# Security & VPN
+# =============================================================================
 cask 'surfshark'                                      # VPN
+cask 'tailscale'                                      # Tailscale VPN
 cask 'logi-options+'                                  # Logitech Options
 
+# =============================================================================
 # Mac App Store Applications
+# =============================================================================
 mas 'Xcode', id: 497799835                           # Developer Tools
 mas 'Spark Classic – Email App', id: 1176895641      # Email Client
 mas 'iA Writer', id: 775737590                       # Writing App
