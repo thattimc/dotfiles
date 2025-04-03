@@ -31,9 +31,11 @@ brew 'hashicorp/tap/packer'                           # Machine Image Builder
 brew 'ansible'                                        # Infrastructure Automation
 brew 'talosctl'                                       # Talos Linux CLI
 brew 'talhelper'                                      # Talos Helper
+brew 'sops'                                           # Secrets Management
+brew 'age'                                            # Encryption Tool
 
 # =============================================================================
-# APIs
+# APIs & Development Tools
 # =============================================================================
 brew 'stripe/stripe-cli/stripe'                       # Stripe CLI
 
