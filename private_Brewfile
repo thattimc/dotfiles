@@ -18,6 +18,7 @@ brew 'go'                                             # Go Programming Language
 brew 'pipx'                                           # Python Package Manager
 brew 'cmake'                                          # C++ Build System
 brew 'btop'                                           # System Monitor
+brew 'direnv'                                         # Environment Manager
 
 # =============================================================================
 # Infrastructure & DevOps
