@@ -76,6 +76,7 @@ cask 'raycast'                                        # Productivity Tool
 cask 'cleanshot'                                      # Screenshot Tool
 cask 'screen-studio'                                  # Screen Recording
 cask '1password-cli'                                  # Password Management
+cask 'obsidian'                                       # Note Taking
 
 # =============================================================================
 # Web Browsers
