@@ -80,10 +80,11 @@ mas 'Xcode', id: 497799835                            # Developer Tools
 # =============================================================================
 cask '1password'                                      # Password Manager
 cask '1password-cli'                                  # Password Management CLI
-cask 'cleanshot'                                      # Screenshot Tool
 cask 'raycast'                                        # Productivity Tool
-cask 'screen-studio'                                  # Screen Recording
 mas 'iA Writer', id: 775737590                        # Writing App
+cask 'cleanshot'                                      # Screenshot Tool
+cask 'screen-studio'                                  # Screen Recording
+cask 'superwhisper'                                   # Audio Transcription
 
 # =============================================================================
 # Collaboration & Project Management
