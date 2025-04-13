@@ -18,6 +18,7 @@ brew 'gh'                                             # GitHub CLI
 brew 'mas'                                            # Mac App Store CLI
 brew 'vim'                                            # Text Editor
 brew 'yq'                                             # YAML Processor
+brew 'wget'                                           # File Downloader
 
 # =============================================================================
 # Security & Privacy
