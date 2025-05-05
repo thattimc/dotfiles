@@ -59,7 +59,8 @@ cask 'orbstack'                                       # Container Platform
 cask 'postman'                                        # API Platform
 cask 'warp'                                           # Terminal
 cask 'windows-app'                                    # Windows Application Support
-cask 'windsurf'
+cask 'windsurf'                                       # Windsurf Application
+cask 'visual-studio-code'                             # Code Editor
 
 # =============================================================================
 # DevOps & Infrastructure
