@@ -43,6 +43,8 @@ brew 'nvm'                                            # Node Version Manager
 brew 'pipx'                                           # Python Package Manager
 brew 'pnpm'                                           # Package Manager
 brew 'yarn'                                           # Package Manager
+brew 'maven'
+brew 'postgresql@16'
 cask 'proxyman'                                       # HTTP Debugging Proxy
 mas 'Xcode', id: 497799835                            # Developer Tools
 
