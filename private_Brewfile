@@ -96,7 +96,6 @@ cask 'logi-options+'                                  # Logitech Options
 cask 'figma'                                          # Design Tool
 cask 'linear-linear'                                  # Project Management
 cask 'notion'                                         # Note Taking
-cask 'obsidian'                                       # Note Taking
 cask 'whimsical'                                      # Diagrams & Docs
 
 # =============================================================================
