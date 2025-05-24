@@ -17,8 +17,8 @@ brew 'direnv'                                         # Environment Manager
 brew 'gh'                                             # GitHub CLI
 brew 'mas'                                            # Mac App Store CLI
 brew 'vim'                                            # Text Editor
-brew 'yq'                                             # YAML Processor
 brew 'wget'                                           # File Downloader
+brew 'yq'                                             # YAML Processor
 
 # =============================================================================
 # Security & Privacy
@@ -37,13 +37,13 @@ cask 'tailscale'                                      # Tailscale VPN
 # =============================================================================
 brew 'cmake'                                          # C++ Build System
 brew 'go'                                             # Go Programming Language
+brew 'maven'                                          # Java Build Tool
+brew 'nvm'                                            # Node Version Manager
 brew 'openjdk'                                        # Java Development Kit
 brew 'oven-sh/bun/bun'                                # JavaScript Runtime
-brew 'nvm'                                            # Node Version Manager
 brew 'pipx'                                           # Python Package Manager
 brew 'pnpm'                                           # Package Manager
 brew 'yarn'                                           # Package Manager
-brew 'maven'                                          # Java Build Tool
 cask 'proxyman'                                       # HTTP Debugging Proxy
 mas 'Xcode', id: 497799835                            # Developer Tools
 
@@ -58,10 +58,10 @@ cask 'intellij-idea'                                  # IDE
 cask 'localcan'                                       # Local Development Tool
 cask 'orbstack'                                       # Container Platform
 cask 'postman'                                        # API Platform
+cask 'visual-studio-code'                             # Code Editor
 cask 'warp'                                           # Terminal
 cask 'windows-app'                                    # Windows Application Support
 cask 'windsurf'                                       # Windsurf Application
-cask 'visual-studio-code'                             # Code Editor
 
 # =============================================================================
 # DevOps & Infrastructure
@@ -72,8 +72,8 @@ brew 'hashicorp/tap/packer'                           # Machine Image Builder
 brew 'hcloud'                                         # Hetzner Cloud CLI
 brew 'helm'                                           # Kubernetes Package Manager
 brew 'kind'                                           # Kubernetes in Docker
-brew 'talosctl'                                       # Talos Linux CLI
 brew 'talhelper'                                      # Talos Helper
+brew 'talosctl'                                       # Talos Linux CLI
 
 # =============================================================================
 # API & Service Tools
@@ -83,12 +83,12 @@ brew 'stripe/stripe-cli/stripe'                       # Stripe CLI
 # =============================================================================
 # Productivity & Creativity
 # =============================================================================
-cask 'raycast'                                        # Productivity Tool
-mas 'iA Writer', id: 775737590                        # Writing App
 cask 'cleanshot'                                      # Screenshot Tool
+cask 'logi-options+'                                  # Logitech Options
+cask 'raycast'                                        # Productivity Tool
 cask 'screen-studio'                                  # Screen Recording
 cask 'superwhisper'                                   # Audio Transcription
-cask 'logi-options+'                                  # Logitech Options
+mas 'iA Writer', id: 775737590                        # Writing App
 
 # =============================================================================
 # Collaboration & Project Management
@@ -124,5 +124,5 @@ cask 'microsoft-word'                                 # Word Processing
 # =============================================================================
 # AI & ML Tools
 # =============================================================================
-cask 'chatgpt'                                        # ChatGPT Desktop
 cask 'ollama'                                         # Local LLM Platform
+
