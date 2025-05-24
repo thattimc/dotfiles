@@ -54,7 +54,7 @@ cask 'beekeeper-studio'                               # Database Manager
 cask 'cursor'                                         # Code Editor
 cask 'github'                                         # GitHub Desktop
 cask 'google-cloud-sdk'                               # Cloud SDK
-cask 'intellij-idea-ce'                               # IDE
+cask 'intellij-idea'                                  # IDE
 cask 'localcan'                                       # Local Development Tool
 cask 'orbstack'                                       # Container Platform
 cask 'postman'                                        # API Platform
@@ -113,8 +113,6 @@ mas 'Spark Classic – Email App', id: 1176895641       # Email Client
 # Web Browsers
 # =============================================================================
 cask 'google-chrome'                                  # Web Browser
-cask 'orion'                                          # Web Browser
-cask 'zen-browser'                                    # Web Browser
 
 # =============================================================================
 # Microsoft Office Suite
