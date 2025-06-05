@@ -104,6 +104,7 @@ cask 'whimsical'                                      # Diagrams & Docs
 cask 'microsoft-teams'                                # Team Communication
 cask 'signal'                                         # Secure Messaging
 cask 'slack'                                          # Team Communication
+cask 'wechat'                                         # Messaging
 cask 'whatsapp'                                       # Messaging
 cask 'zoom'                                           # Video Conferencing
 mas 'Spark Classic – Email App', id: 1176895641       # Email Client

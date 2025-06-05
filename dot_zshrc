@@ -21,3 +21,6 @@ alias gs="git status"
 alias ga="git add ."
 alias gc='gc-commit.sh'
 alias gp="git push"
+
+# JAVA Home
+export JAVA_HOME=/opt/homebrew/Cellar/openjdk/23.0.2/libexec/openjdk.jdk/Contents/Home
