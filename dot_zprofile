@@ -6,3 +6,6 @@ export CPPFLAGS="-I/opt/homebrew/opt/openjdk/include"
 
 # pipx
 export PATH="$PATH:/Users/tim/.local/bin"
+
+# appcat
+export PATH="$PATH:/Users/tim/.appcat"
