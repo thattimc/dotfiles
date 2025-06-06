@@ -19,6 +19,7 @@ brew 'mas'                                            # Mac App Store CLI
 brew 'vim'                                            # Text Editor
 brew 'wget'                                           # File Downloader
 brew 'yq'                                             # YAML Processor
+brew 'tailscale'
 
 # =============================================================================
 # Security & Privacy
