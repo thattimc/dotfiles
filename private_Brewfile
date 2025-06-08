@@ -75,6 +75,7 @@ brew 'helm'                                           # Kubernetes Package Manag
 brew 'kind'                                           # Kubernetes in Docker
 brew 'talhelper'                                      # Talos Helper
 brew 'talosctl'                                       # Talos Linux CLI
+brew 'postgresql'
 
 # =============================================================================
 # API & Service Tools
