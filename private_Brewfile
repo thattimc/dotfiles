@@ -5,6 +5,7 @@ tap "hashicorp/tap"                                   # HashiCorp Tools Provider
 tap "oven-sh/bun"                                     # Bun JavaScript Runtime
 tap "siderolabs/tap"                                  # Sidero Labs Provider 
 tap "stripe/stripe-cli"                               # Stripe CLI Provider
+tap "infisical/get-cli"
 
 # =============================================================================
 # Command Line Tools
@@ -28,6 +29,7 @@ brew 'age'                                            # Encryption Tool
 brew 'nmap'                                           # Network Scanner
 brew 'p7zip'                                          # Archive Manager
 brew 'sops'                                           # Secrets Management
+brew 'infisical'                                      # Secrets Management
 cask '1password'                                      # Password Manager
 cask '1password-cli'                                  # Password Management CLI
 cask 'surfshark'                                      # VPN
