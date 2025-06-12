@@ -78,6 +78,7 @@ brew 'kind'                                           # Kubernetes in Docker
 brew 'talhelper'                                      # Talos Helper
 brew 'talosctl'                                       # Talos Linux CLI
 brew 'postgresql'
+brew 'pulumi'                                         # Infrastructure as code
 
 # =============================================================================
 # API & Service Tools
