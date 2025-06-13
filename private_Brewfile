@@ -131,4 +131,4 @@ cask 'microsoft-word'                                 # Word Processing
 # AI & ML Tools
 # =============================================================================
 cask 'ollama'                                         # Local LLM Platform
-
+cask 'font-sf-mono'
