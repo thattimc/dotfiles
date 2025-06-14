@@ -115,6 +115,17 @@ brew 'tldr'                                           # Simplified man pages
 # =============================================================================
 # Environment & Utils
 # =============================================================================
+brew 'ansible'                                        # Infrastructure Automation
+brew 'clusterctl'                                     # Cluster API
+brew 'hashicorp/tap/packer'                           # Machine Image Builder
+brew 'hcloud'                                         # Hetzner Cloud CLI
+brew 'helm'                                           # Kubernetes Package Manager
+brew 'kind'                                           # Kubernetes in Docker
+brew 'talhelper'                                      # Talos Helper
+brew 'talosctl'                                       # Talos Linux CLI
+brew 'pulumi'                                         # Infrastructure as Code
+brew 'opentofu'                                       # opentofu - Open Source Terraform Alternative
+brew 'postgresql'                                     # PostgreSQL
 brew 'coreutils'                                      # GNU utils
 brew 'dialog'                                         # Terminal dialogs
 brew 'direnv'                                         # Env manager
