@@ -8,7 +8,7 @@ tap "stripe/stripe-cli"                               # Stripe CLI
 tap "infisical/get-cli"                               # Secrets management
 
 # =============================================================================
-# Core Development
+# Development Tools
 # =============================================================================
 # Languages & Runtimes
 brew 'go'                                             # Go language
@@ -22,7 +22,7 @@ brew 'yarn'                                           # Node package manager
 brew 'pipx'                                           # Python app manager
 mas 'Xcode', id: 497799835                            # Apple dev tools
 
-# Version Control & Git
+# Version Control
 brew 'gh'                                             # GitHub CLI
 brew 'git-lfs'                                        # Git large files
 brew 'git-delta'                                      # Git diff viewer
@@ -40,17 +40,22 @@ cask 'warp'                                           # Terminal
 cask 'windows-app'                                    # Windows support
 
 # =============================================================================
-# DevOps & Infrastructure
+# Cloud & Infrastructure
 # =============================================================================
-# Cloud & Kubernetes
+# Cloud Platforms
 brew 'aws-cdk'                                        # AWS CDK
 brew 'awscli@1'                                       # AWS CLI
 brew 'azure-cli'                                      # Azure CLI
+cask 'google-cloud-sdk'                               # GCP tools
+brew 'hcloud'                                         # Hetzner CLI
+
+# Kubernetes & Containers
 brew 'clusterctl'                                     # K8s management
 brew 'helm'                                           # K8s package manager
 brew 'kind'                                           # Local K8s
 brew 'k9s'                                            # K8s CLI tool
-cask 'google-cloud-sdk'                               # GCP tools
+cask 'orbstack'                                       # Docker alternative
+cask 'localcan'                                       # Local dev env
 
 # Infrastructure as Code
 brew 'ansible'                                        # Automation
@@ -59,10 +64,7 @@ brew 'pulumi'                                         # IaC platform
 brew 'opentofu'                                       # Terraform fork
 brew 'terraform'                                      # IaC tool
 
-# Containers & Platforms
-cask 'orbstack'                                       # Docker alternative
-cask 'localcan'                                       # Local dev env
-brew 'hcloud'                                         # Hetzner CLI
+# Platform Tools
 brew 'talhelper'                                      # Talos helper
 brew 'talosctl'                                       # Talos CLI
 
@@ -79,7 +81,7 @@ cask 'tailscale'                                      # Zero-config VPN
 brew 'tailscale'                                      # VPN CLI
 
 # =============================================================================
-# API & Testing Tools
+# API & Testing
 # =============================================================================
 brew 'stripe/stripe-cli/stripe'                       # Stripe CLI
 cask 'postman'                                        # API testing
@@ -89,7 +91,7 @@ brew 'grpcurl'                                        # gRPC client
 brew 'k6'                                             # Load testing
 
 # =============================================================================
-# System & Network Tools
+# System & Network
 # =============================================================================
 brew 'btop'                                           # System monitor
 brew 'htop'                                           # Process viewer
@@ -98,6 +100,11 @@ brew 'lsof'                                           # List open files
 brew 'nmap'                                           # Network scanner
 brew 'mtr'                                            # Network diagnostic
 brew 'tcpdump'                                        # Network sniffer
+brew 'coreutils'                                      # GNU utils
+brew 'dialog'                                         # Terminal dialogs
+brew 'direnv'                                         # Env manager
+brew 'mas'                                            # App Store CLI
+brew 'wget'                                           # Downloader
 
 # =============================================================================
 # File & Text Processing
@@ -111,26 +118,6 @@ brew 'jq'                                             # JSON processor
 brew 'yq'                                             # YAML processor
 brew 'p7zip'                                          # Archive manager
 brew 'tldr'                                           # Simplified man pages
-
-# =============================================================================
-# Environment & Utils
-# =============================================================================
-brew 'ansible'                                        # Infrastructure Automation
-brew 'clusterctl'                                     # Cluster API
-brew 'hashicorp/tap/packer'                           # Machine Image Builder
-brew 'hcloud'                                         # Hetzner Cloud CLI
-brew 'helm'                                           # Kubernetes Package Manager
-brew 'kind'                                           # Kubernetes in Docker
-brew 'talhelper'                                      # Talos Helper
-brew 'talosctl'                                       # Talos Linux CLI
-brew 'pulumi'                                         # Infrastructure as Code
-brew 'opentofu'                                       # opentofu - Open Source Terraform Alternative
-brew 'postgresql'                                     # PostgreSQL
-brew 'coreutils'                                      # GNU utils
-brew 'dialog'                                         # Terminal dialogs
-brew 'direnv'                                         # Env manager
-brew 'mas'                                            # App Store CLI
-brew 'wget'                                           # Downloader
 
 # =============================================================================
 # Databases
@@ -178,7 +165,8 @@ cask 'microsoft-powerpoint'                           # Presentations
 cask 'microsoft-word'                                 # Word processor
 
 # =============================================================================
-# AI Tools
+# AI & Machine Learning
 # =============================================================================
 cask 'ollama'                                         # Local LLMs
 cask 'comfyui'                                        # Stable Diffusion GUI
+cask 'lm-studio'                                      # LM Studio
