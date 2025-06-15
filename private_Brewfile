@@ -54,9 +54,7 @@ brew 'clusterctl'                                     # K8s management
 brew 'helm'                                           # K8s package manager
 brew 'kind'                                           # Local K8s
 brew 'k9s'                                            # K8s CLI tool
-cask 'orbstack'                                       # Docker alternative
 cask 'localcan'                                       # Local dev env
-cask 'rancher'                                        # Rancher desktop
 
 # Infrastructure as Code
 brew 'ansible'                                        # Automation
