@@ -181,3 +181,4 @@ cask 'microsoft-word'                                 # Word processor
 # AI Tools
 # =============================================================================
 cask 'ollama'                                         # Local LLMs
+cask 'comfyui'                                        # Stable Diffusion GUI
