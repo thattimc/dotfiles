@@ -55,7 +55,7 @@ brew 'helm'                                           # K8s package manager
 brew 'kind'                                           # Local K8s
 brew 'k9s'                                            # K8s CLI tool
 cask 'localcan'                                       # Local dev env
-cask 'docker'                                         # Docker
+cask 'orbstack'                                       # Docker alternative
 
 # Infrastructure as Code
 brew 'ansible'                                        # Automation
