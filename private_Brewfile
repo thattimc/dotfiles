@@ -132,7 +132,6 @@ cask 'cleanshot'                                      # Screenshots
 cask 'logi-options+'                                  # Logitech tools
 cask 'raycast'                                        # Launcher
 cask 'screen-studio'                                  # Screen recorder
-cask 'superwhisper'                                   # Audio transcription
 mas 'iA Writer', id: 775737590                        # Writing app
 cask 'font-sf-mono'                                   # SF Mono font
 cask 'figma'                                          # Design tool
