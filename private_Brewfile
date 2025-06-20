@@ -136,7 +136,6 @@ mas 'iA Writer', id: 775737590                        # Writing app
 cask 'font-sf-mono'                                   # SF Mono font
 cask 'figma'                                          # Design tool
 cask 'whimsical'                                      # Visual workspace
-cask 'colorslurp', id: 1287239339                     # Color picker
 
 # =============================================================================
 # Project Management
