@@ -28,3 +28,6 @@ export JAVA_HOME=/opt/homebrew/Cellar/openjdk/23.0.2/libexec/openjdk.jdk/Content
 
 # k8s
 export KUBECONFIG=/Users/tim/projects/infra/kubeconfig
+
+# Claude
+export PATH="$PATH:~/.claude/local"
