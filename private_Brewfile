@@ -78,8 +78,7 @@ brew 'infisical'                                      # Secrets platform
 cask '1password'                                      # Password manager
 cask '1password-cli'                                  # 1Password CLI
 cask 'surfshark'                                      # VPN
-cask 'tailscale'                                      # Zero-config VPN
-brew 'tailscale'                                      # VPN CLI
+cask 'tailscale-app'                                  # Zero-config VPN
 
 # =============================================================================
 # API & Testing
@@ -168,6 +167,6 @@ cask 'microsoft-word'                                 # Word processor
 # =============================================================================
 # AI & Machine Learning
 # =============================================================================
-cask 'ollama'                                         # Local LLMs
+cask 'ollama-app'                                     # Local LLMs
 cask 'comfyui'                                        # Stable Diffusion GUI
 cask 'lm-studio'                                      # LM Studio
