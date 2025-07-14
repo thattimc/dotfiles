@@ -57,6 +57,7 @@ brew 'k9s'                                            # K8s CLI tool
 cask 'localcan'                                       # Local dev env
 cask 'orbstack'                                       # Docker alternative
 cask 'podman-desktop'                                 # Podman desktop
+cask 'minikube'                                       # Local K8s
 
 # Infrastructure as Code
 brew 'ansible'                                        # Automation
