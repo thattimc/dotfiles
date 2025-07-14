@@ -53,11 +53,11 @@ brew 'hcloud'                                         # Hetzner CLI
 brew 'clusterctl'                                     # K8s management
 brew 'helm'                                           # K8s package manager
 brew 'kind'                                           # Local K8s
+brew 'minikube'                                       # Local K8s
 brew 'k9s'                                            # K8s CLI tool
 cask 'localcan'                                       # Local dev env
 cask 'orbstack'                                       # Docker alternative
 cask 'podman-desktop'                                 # Podman desktop
-cask 'minikube'                                       # Local K8s
 
 # Infrastructure as Code
 brew 'ansible'                                        # Automation
