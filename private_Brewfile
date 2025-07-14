@@ -124,6 +124,7 @@ brew 'tldr'                                           # Simplified man pages
 # Databases
 # =============================================================================
 cask 'beekeeper-studio'                               # DB manager
+cask 'dbngin'                                         # DB manager
 
 # =============================================================================
 # Productivity & Design
