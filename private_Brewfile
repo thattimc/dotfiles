@@ -38,7 +38,7 @@ brew 'neovim'                                         # Modern vim
 brew 'tmux'                                           # Terminal multiplexer
 cask 'warp'                                           # Terminal
 cask 'windows-app'                                    # Windows support
-cask 'cursor-app'                                     # Cursor app
+cask 'claude'                                         # Claude app
 
 # =============================================================================
 # Cloud & Infrastructure
