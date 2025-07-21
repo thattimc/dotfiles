@@ -47,7 +47,6 @@ cask 'claude'                                         # Claude app
 brew 'aws-cdk'                                        # AWS CDK
 brew 'awscli@1'                                       # AWS CLI
 brew 'azure-cli'                                      # Azure CLI
-brew 'gcloud-cli'                                     # GCP tools
 brew 'hcloud'                                         # Hetzner CLI
 
 # Kubernetes & Containers
