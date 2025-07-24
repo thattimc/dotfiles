@@ -119,7 +119,7 @@ brew 'jq'                                             # JSON processor
 brew 'yq'                                             # YAML processor
 brew 'p7zip'                                          # Archive manager
 brew 'tldr'                                           # Simplified man pages
-brew 'rar'                                            # Archive manager
+brew 'unar'                                           # Archive manager
 
 # =============================================================================
 # Databases
