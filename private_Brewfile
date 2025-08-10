@@ -126,6 +126,7 @@ brew 'unar'                                           # Archive manager
 # =============================================================================
 cask 'beekeeper-studio'                               # DB manager
 cask 'dbngin'                                         # DB manager
+cask 'tableplus'                                      # DB manager
 
 # =============================================================================
 # Productivity & Design
