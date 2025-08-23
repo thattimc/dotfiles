@@ -60,6 +60,7 @@ cask 'localcan'                                       # Local dev env
 cask 'orbstack'                                       # Docker alternative
 cask 'podman-desktop'                                 # Podman desktop
 brew 'argocd'                                         # ArgoCD
+brew 'cilium'                                         # Cilium
 
 # Infrastructure as Code
 brew 'ansible'                                        # Automation
