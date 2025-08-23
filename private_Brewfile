@@ -61,6 +61,7 @@ cask 'orbstack'                                       # Docker alternative
 cask 'podman-desktop'                                 # Podman desktop
 brew 'argocd'                                         # ArgoCD
 brew 'cilium-cli'                                     # Cilium
+brew 'kubeseal'                                       # K8s secret manager
 
 # Infrastructure as Code
 brew 'ansible'                                        # Automation
