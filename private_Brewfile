@@ -110,6 +110,7 @@ brew 'dialog'                                         # Terminal dialogs
 brew 'direnv'                                         # Env manager
 brew 'mas'                                            # App Store CLI
 brew 'wget'                                           # Downloader
+cask 'cyberduck'                                      # SFTP client
 
 # =============================================================================
 # File & Text Processing
