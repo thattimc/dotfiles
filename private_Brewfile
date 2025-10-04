@@ -144,7 +144,7 @@ mas 'iA Writer', id: 775737590                        # Writing app
 cask 'font-sf-mono'                                   # SF Mono font
 cask 'figma'                                          # Design tool
 cask 'whimsical'                                      # Visual workspace
-cask 'Things 3', id: 904280696                        # Task manager
+mas 'Things 3', id: 904280696                        # Task manager
 
 # =============================================================================
 # Project Management
