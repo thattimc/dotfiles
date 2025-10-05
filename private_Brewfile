@@ -53,7 +53,7 @@ cask 'kiro'                                           # Kiro app
 # =============================================================================
 # Cloud Platforms
 brew 'aws-cdk'                                        # AWS CDK
-brew 'awscli'                                        # AWS CLI
+brew 'awscli'                                         # AWS CLI
 brew 'azure-cli'                                      # Azure CLI
 brew 'hcloud'                                         # Hetzner CLI
 
