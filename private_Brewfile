@@ -96,7 +96,6 @@ brew 'gnupg'                                          # GPG utilities
 brew 'ssh-copy-id'                                    # SSH key management
 cask '1password'                                      # Password manager
 cask '1password-cli'                                  # 1Password CLI
-cask 'pinentry-mac'                                   # GPG passphrase entry
 cask 'surfshark'                                      # VPN
 cask 'tailscale-app'                                  # Zero-config VPN
 
