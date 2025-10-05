@@ -6,6 +6,7 @@ tap "oven-sh/bun"                                     # Bun runtime
 tap "siderolabs/tap"                                  # Talos Linux tools
 tap "stripe/stripe-cli"                               # Stripe CLI
 tap "infisical/get-cli"                               # Secrets management
+tap "fluxcd/tap"                                      # GitOps tools
 
 # =============================================================================
 # Development Tools
@@ -20,6 +21,12 @@ brew 'oven-sh/bun/bun'                                # Bun runtime
 brew 'pnpm'                                           # Node package manager
 brew 'yarn'                                           # Node package manager
 brew 'pipx'                                           # Python app manager
+brew 'starship'                                       # Shell prompt
+brew 'zsh-autosuggestions'                            # ZSH plugin
+brew 'zsh-syntax-highlighting'                        # ZSH plugin
+brew 'docker-compose'                                 # Docker compose
+brew 'watch'                                          # File monitoring
+brew 'tree'                                           # Directory tree
 mas 'Xcode', id: 497799835                            # Apple dev tools
 
 # Version Control
@@ -46,7 +53,7 @@ cask 'kiro'                                           # Kiro app
 # =============================================================================
 # Cloud Platforms
 brew 'aws-cdk'                                        # AWS CDK
-brew 'awscli@1'                                       # AWS CLI
+brew 'awscli'                                        # AWS CLI
 brew 'azure-cli'                                      # Azure CLI
 brew 'hcloud'                                         # Hetzner CLI
 
@@ -69,6 +76,10 @@ brew 'hashicorp/tap/packer'                           # Image builder
 brew 'pulumi'                                         # IaC platform
 brew 'opentofu'                                       # Terraform fork
 brew 'terraform'                                      # IaC tool
+brew 'fluxcd/tap/flux'                                # GitOps
+brew 'kustomize'                                      # Kubernetes config
+brew 'skaffold'                                        # Kubernetes dev
+brew 'linkerd'                                        # Service mesh
 
 # Platform Tools
 brew 'talhelper'                                      # Talos helper
@@ -80,8 +91,12 @@ brew 'talosctl'                                       # Talos CLI
 brew 'age'                                            # Encryption
 brew 'sops'                                           # Secrets mgmt
 brew 'infisical'                                      # Secrets platform
+brew 'gpg'                                            # GPG encryption
+brew 'gnupg'                                          # GPG utilities
+brew 'ssh-copy-id'                                    # SSH key management
 cask '1password'                                      # Password manager
 cask '1password-cli'                                  # 1Password CLI
+cask 'pinentry-mac'                                   # GPG passphrase entry
 cask 'surfshark'                                      # VPN
 cask 'tailscale-app'                                  # Zero-config VPN
 
@@ -101,6 +116,10 @@ brew 'k6'                                             # Load testing
 brew 'btop'                                           # System monitor
 brew 'htop'                                           # Process viewer
 brew 'ncdu'                                           # Disk usage
+brew 'dust'                                           # Disk usage analyzer
+brew 'procs'                                          # Process viewer
+brew 'bandwhich'                                      # Network monitoring
+brew 'gping'                                          # Ping with graph
 brew 'lsof'                                           # List open files
 brew 'nmap'                                           # Network scanner
 brew 'mtr'                                            # Network diagnostic
@@ -125,6 +144,10 @@ brew 'yq'                                             # YAML processor
 brew 'p7zip'                                          # Archive manager
 brew 'tldr'                                           # Simplified man pages
 brew 'unar'                                           # Archive manager
+brew 'glow'                                           # Markdown renderer
+brew 'lazygit'                                        # Git TUI
+brew 'pandoc'                                         # Document converter
+brew 'markdownlint-cli'                               # Markdown linter
 
 # =============================================================================
 # Databases
