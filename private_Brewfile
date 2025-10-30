@@ -46,7 +46,6 @@ brew 'tmux'                                           # Terminal multiplexer
 cask 'warp'                                           # Terminal
 cask 'windows-app'                                    # Windows support
 cask 'claude'                                         # Claude app
-cask 'kiro'                                           # Kiro app
 
 # =============================================================================
 # Cloud & Infrastructure
