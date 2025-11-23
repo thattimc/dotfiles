@@ -27,7 +27,6 @@ brew 'zsh-syntax-highlighting'                        # ZSH plugin
 brew 'docker-compose'                                 # Docker compose
 brew 'watch'                                          # File monitoring
 brew 'tree'                                           # Directory tree
-brew 'nx'                                             # Monorepo tool
 mas 'Xcode', id: 497799835                            # Apple dev tools
 
 # Version Control
